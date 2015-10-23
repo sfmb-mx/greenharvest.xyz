@@ -1376,7 +1376,7 @@ fieldset h1 {
 .white-bg {
     border-radius: 5px;
     // background-color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.65);
 }
 .silver-bg {
     background-color: #f2f2f2;

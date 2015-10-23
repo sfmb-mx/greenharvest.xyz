@@ -61,14 +61,14 @@ p {
     // color: #686868;
     color: #D7F6CA;
     font-family: 'Raleway',sans-serif;
-    font-size:   22px;
-    font-weight: 300;
-    line-height: 25px;
-    margin-top:  20px;
-    padding-top: 15px;
-    padding-right: 15px;
+    font-size:      18px;
+    font-weight:    300;
+    line-height:    25px;
+    margin-top:     20px;
+    padding-top:    15px;
+    padding-right:  15px;
     padding-bottom: 15px;
-    padding-left: 15px;
+    padding-left:   15px;
 }
 h1,h2,h3,h4,h5,h6{
     margin-top: 0;

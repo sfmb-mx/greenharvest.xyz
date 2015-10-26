@@ -5,8 +5,8 @@
 // Template Name: Reflex.
 // Author: Designova.
 // Version 1.2 - Updated Release
-// Website: http://www.designova.net 
-// Copyright: (C) 2014 
+// Website: http://www.designova.net
+// Copyright: (C) 2014
 // -------------------------------------------------------------------------------------------------------------------------------
 
 /*global $:false */
@@ -30,9 +30,9 @@ $(function ($) {
 
      //Adjusting Intro Components Spacing based on detected screen resolution
      $('#intro, .fullheight, .text-anim-container, .pace-running').css('height',vH);
-    
 
-    
+
+
     $('.foot-pad').css('margin-bottom',fH);
 
 
@@ -62,10 +62,10 @@ $(function ($) {
                   modpath: './twitter/',
                   count: 1,
                   loading_text: 'loading twitter update...',
-                  username:'designovastudio'
+                  username:'smendozab'
                   /* etc... */
               });
-    }); 
+    });
 
 
     //Faded Page Loading
@@ -83,7 +83,7 @@ $(function ($) {
         /*! Fades in whole page on load */
         $('body').css('display', 'none');
         $('body').fadeIn(500);
-    }); 
+    });
     /*! Reloads page on every visit */
     function Reload() {
     try {
@@ -107,7 +107,7 @@ $(function ($) {
 
 
 
-    
+
 
 
 });
@@ -115,12 +115,3 @@ $(function ($) {
 
 })();
 //  JSHint wrapper $(function ($)  : ends
-
-
-
-
-
-
-
-  
-

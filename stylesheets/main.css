@@ -58,8 +58,8 @@ a:focus {
     display: inline-block;
 }
 p {
-    color: #FFFFFF;
-    // color: #D7F6CA;
+    // color: #FFFFFF;
+    // color: #000;
     font-family: 'Raleway',sans-serif;
     font-size:      15px;
     font-weight:    400;
@@ -1484,6 +1484,13 @@ fieldset h1 {
 .red-bg {
     background-color: #F50026;
 }
+.light-yellow{
+    color: #FFE653;
+}
+.light-yellow-bg{
+    // background-color: #FFFACD;
+    background-color: #FFE653;
+}
 .btn-reflex-white-2{
     border:solid 1px #fff;
     background: transparent;
@@ -1493,4 +1500,27 @@ fieldset h1 {
     border:solid 1px #fff;
     background: #fff;
     color: #F50026;
+}
+.btn-reflex-black{
+    border:solid 1px #000000;
+    background: transparent;
+    color: #000000;
+}
+.btn-reflex-black:hover{
+    border:solid 1px #000000;
+    background: #000000;
+    color: #FFE653;
+}
+.btn-reflex-dark-green{
+    border:solid 1px #556600;
+    background: transparent;
+    color: #556600;
+}
+.btn-reflex-dark-green:hover{
+    border:solid 1px #556600;
+    background: #556600;
+    color: #FFE653;
+}
+.std-space {
+    height:20px;
 }

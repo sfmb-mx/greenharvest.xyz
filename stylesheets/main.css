@@ -1365,9 +1365,7 @@ fieldset h1 {
     color: #fff22d;
 }
 .white-bg {
-    // border-radius: 5px;
     background-color: #ffffff;
-    // background-color: rgba(255, 255, 255, 0.75);
 }
 .silver-bg {
     background-color: #f2f2f2;
@@ -1475,13 +1473,7 @@ fieldset h1 {
 .red-bg {
     background-color: #F50026;
 }
-.light-yellow{
-    color: #FFE653;
-}
-.light-yellow-bg{
-    // background-color: #FFFACD;
-    background-color: #FFE653;
-}
+
 .btn-reflex-white-2{
     border:solid 1px #fff;
     background: transparent;
@@ -1490,7 +1482,7 @@ fieldset h1 {
 .btn-reflex-white-2:hover{
     border:solid 1px #fff;
     background: #fff;
-    color: #F50026;
+    color: #FC5E05;
 }
 .btn-reflex-black{
     border:solid 1px #000000;
@@ -1500,7 +1492,7 @@ fieldset h1 {
 .btn-reflex-black:hover{
     border:solid 1px #000000;
     background: #000000;
-    color: #FFE653;
+    color: #FC5E05;
 }
 .btn-reflex-dark-green{
     border:solid 1px #556600;
@@ -1510,8 +1502,15 @@ fieldset h1 {
 .btn-reflex-dark-green:hover{
     border:solid 1px #556600;
     background: #556600;
-    color: #FFE653;
+    color: #FC5E05;
 }
 .std-space {
     height:20px;
+}
+.orange{
+    color: #FC5E05;
+}
+.orange-bg{
+    // background-color: #FFFACD;
+    background-color: #FC5E05;
 }

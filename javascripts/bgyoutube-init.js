@@ -1,39 +1,29 @@
-
 /*global $:false */
 /*global window: false */
 
 (function(){
-  "use strict";
+    "use strict";
 
 
-$(function ($) {
+    $(function ($) {
 
-		if( !device.tablet() && !device.mobile() ) {
-			
-			 $(function(){
-		      $(".player").mb_YTPlayer();
-		    });
-						
-		} else {
-			
-			/* displays a poster image if mobile device is detected*/ 
-			$('body').addClass('poster-img');
-			
-		}
-   		
-        
-   
-});
-// $(function ($)  : ends
+        if( !device.tablet() && !device.mobile() ) {
+
+            $(function(){
+                $(".player").mb_YTPlayer();
+            });
+
+        } else {
+
+            /* displays a poster image if mobile device is detected*/
+            $('body').addClass('poster-img');
+
+        }
+
+
+
+    });
+    // $(function ($)  : ends
 
 })();
 //  JSHint wrapper $(function ($)  : ends
-
-
-
-
-
-
-
-	
-

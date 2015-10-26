@@ -1,21 +1,20 @@
- //Venobox Responsive Lightbox
-   
- (function(){
-  "use strict";
+//Venobox Responsive Lightbox
+
+(function(){
+    "use strict";
 
 
-$(function ($) {
+    $(function ($) {
 
 
-   $('.venobox, .image-lightbox-link').venobox({
-    numeratio: true
-    }); 
+        $('.venobox, .image-lightbox-link').venobox({
+            numeratio: true
+        });
 
 
 
-});
-// $(function ($)  : ends
+    });
+    // $(function ($)  : ends
 
 })();
 //  JSHint wrapper $(function ($)  : ends
-

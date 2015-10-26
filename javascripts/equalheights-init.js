@@ -2,53 +2,27 @@
 /*global window: false */
 
 (function(){
-  "use strict";
+    "use strict";
 
+    $(function ($) {
 
-$(function ($) {
+        $(window).load(function(){
 
+            //EqualHeights triggering
+            $('.equal-height').setAllToMaxHeight();
+            $('.about-content-inner').setAllToMaxHeight();
+            $('.service-item').setAllToMaxHeight();
+            $('.team-info, .team-thumb').setAllToMaxHeight();
+            $('.contact-content-inner').setAllToMaxHeight();
+            $('.footer-column').setAllToMaxHeight();
+            $('.about-content').setAllToMaxHeight();
+            $('.news-post-inner').setAllToMaxHeight();
+            $('.error-content-inner').setAllToMaxHeight();
 
-$(window).load(function(){
-    
-
-        //EqualHeights triggering
-		    $('.equal-height').setAllToMaxHeight();
-		    $('.about-content-inner').setAllToMaxHeight();
-		    $('.service-item').setAllToMaxHeight();
-		    $('.team-info, .team-thumb').setAllToMaxHeight();
-		    $('.contact-content-inner').setAllToMaxHeight();
-		    $('.footer-column').setAllToMaxHeight();
-		    $('.about-content').setAllToMaxHeight();
-		    $('.news-post-inner').setAllToMaxHeight();
-		    $('.error-content-inner').setAllToMaxHeight();
-   
-
+        });
 
     });
-			
-		   
-						
-		
-        
-   
-});
-// $(function ($)  : ends
+    // $(function ($)  : ends
 
 })();
 //  JSHint wrapper $(function ($)  : ends
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-  
-

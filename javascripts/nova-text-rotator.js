@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
-    
+
     $(window).load(function(){
         $('.text-rotator').each(function(){
-            
+
             var text_rotator_content = $(this).html();
             $(this).empty();
             $(this).html('<div class="rotator-wrap"></div>')
@@ -11,9 +11,9 @@ jQuery(document).ready(function($) {
             var item_size = text_rotator_content_split.length;
             nova_text_rotator(text_rotator_content_split, this_item, item_size);
         });
-        
+
         function nova_text_rotator(item_array, this_item, item_size, my_index){
-            
+
             if(my_index == undefined)
                 var my_index = -1;
 
@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
                 this_item.fadeOut(800, function(){
                     this_item.html('<span>'+ item_array[my_index] +'</span>');
                     this_item.fadeIn(800);
-                    
+
                 });
             }
             else
@@ -34,8 +34,8 @@ jQuery(document).ready(function($) {
             }
 
             setTimeout(function() {
-                 nova_text_rotator(item_array, this_item, item_size, my_index);
+                nova_text_rotator(item_array, this_item, item_size, my_index);
             }, 2500);
         }
-    });  
-});    
+    });
+});

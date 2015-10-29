@@ -52,7 +52,7 @@ p {
     // color: #FFFFFF;
     // color: #000;
     font-family: 'Raleway',sans-serif;
-    font-size:      15px;
+    font-size:      16px;
     font-weight:    400;
     line-height:    25px;
     margin-top:     20px;
@@ -1386,13 +1386,13 @@ fieldset h1 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .trans-dark-low {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .trans-white {
     background-color: rgba(255, 255, 255, 0.9);
 }
 .trans-white-low {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .trans-color {
     background-color: rgba(255, 242, 45, 0.8);

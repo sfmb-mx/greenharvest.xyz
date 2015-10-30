@@ -1514,3 +1514,6 @@ fieldset h1 {
     // background-color: #FFFACD;
     background-color: #FC5E05;
 }
+.textShadow {
+    text-shadow: 4px 4px 4px #FFF;
+}
